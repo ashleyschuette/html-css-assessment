@@ -1,0 +1,110 @@
+h1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.top-section {
+    width: 100vw;
+    height: 100vh;
+    background: url("/Users/Ashley/Documents/DevMountain/html-css-assessment/img/main-bg.jpeg");
+    background-size: cover;
+}
+
+.main-header {
+    padding: 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.twitter {
+    margin-right: 50px;
+}
+
+nav {
+    width: 80%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.your-text {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-text {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-container {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+}
+
+.arrow {
+    text-align: center;
+}
+
+@media(min-width: 800px) {
+    .HAM {
+        display: none;
+    }
+    
+    .social-media {
+        display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    nav {
+        display: none;
+    }
+}
+
+
+
+
